@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         String answer2 = checkStatus(answer) + ':' + answer1;
         displayResult(answer2);
     }
+    //This method check compares the value of a user BMI to the standard BMI Values
     private String checkStatus(int answerToBeChecked){
         if (answerToBeChecked >= 15 && answerToBeChecked <= 19){
             return "Your Weight is NORMAL";
