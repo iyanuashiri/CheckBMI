@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CheckBMI</string>
+    <string name="height_hint">in meters</string>
+    <string name="weight_hint">in kilograms</string>
+    <string name="button_text">Check</string>
 </resources>
